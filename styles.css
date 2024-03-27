@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 100%;
+    background-image: url('media/background.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 160vw;
+    position: relative;
+    overflow-y: auto;
+    padding: 6vh;
+}
+
+.button {
+    display: flex;
+    background-color: #cd343e;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 10vh;
+    position: relative;
+}
+
+.button img {
+    max-width: 100%; /* Ensure images do not exceed the width of their container */
+    height: 90%; /* Maintain aspect ratio */
+    margin: 10px; /* Optional: Add some spacing between images */
+}
+
+.bottom-link {
+    max-height: 70%;
+    padding: 10px 10px;
+    background-color: #cd343e;
+    color: #f6f6f6;
+    text-decoration: none;
+    border-radius: 1px;
+}
